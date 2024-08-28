@@ -1,0 +1,66 @@
+/* Reset básico para estandarizar estilos en todos los navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Fuente suave y moderna */
+    color: #333; /* Color de texto oscuro para mejor legibilidad */
+    background-color: #fafafa; /* Fondo claro para un look limpio */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #f8f0e3; /* Color crema claro */
+    color: #6a4f4b; /* Color marrón suave */
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #d3c1ae; /* Borde dorado para un toque elegante */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6a4f4b; /* Enlaces en marrón suave */
+    font-weight: bold;
+}
+
+h1, h2 {
+    color: #6a4f4b;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #d3c1ae; /* Marco dorado para las imágenes */
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    margin-top: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f8f0e3;
+    color: #6a4f4b;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
